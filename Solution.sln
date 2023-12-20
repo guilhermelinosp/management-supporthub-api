@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A71A17F-0240-42F8-A5A2-EA3A51A101EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHub.Management.Application", "Source\SupportHub.Management.Application\SupportHub.Management.Application.csproj", "{9BA51C4F-66C6-44DA-9D92-15C621BB087A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHub.Management.Domain", "Source\SupportHub.Management.Domain\SupportHub.Management.Domain.csproj", "{AC446990-BC8C-44B7-B6B3-1C381233284D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHub.Management.Infrastructure", "Source\SupportHub.Management.Infrastructure\SupportHub.Management.Infrastructure.csproj", "{8B414149-8EA7-4B8B-915F-1F1412319F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHub.Management.API", "Source\SupportHub.Management.API\SupportHub.Management.API.csproj", "{6E7944D7-93AB-4EF8-B800-FB8616882C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHub.Management.UnitTest", "Tests\SupportHub.Management.UnitTest\SupportHub.Management.UnitTest.csproj", "{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA51C4F-66C6-44DA-9D92-15C621BB087A} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
+		{AC446990-BC8C-44B7-B6B3-1C381233284D} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
+		{8B414149-8EA7-4B8B-915F-1F1412319F22} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
+		{6E7944D7-93AB-4EF8-B800-FB8616882C2E} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
+		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF} = {7A71A17F-0240-42F8-A5A2-EA3A51A101EF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA51C4F-66C6-44DA-9D92-15C621BB087A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA51C4F-66C6-44DA-9D92-15C621BB087A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA51C4F-66C6-44DA-9D92-15C621BB087A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA51C4F-66C6-44DA-9D92-15C621BB087A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC446990-BC8C-44B7-B6B3-1C381233284D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC446990-BC8C-44B7-B6B3-1C381233284D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC446990-BC8C-44B7-B6B3-1C381233284D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC446990-BC8C-44B7-B6B3-1C381233284D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B414149-8EA7-4B8B-915F-1F1412319F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B414149-8EA7-4B8B-915F-1F1412319F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B414149-8EA7-4B8B-915F-1F1412319F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B414149-8EA7-4B8B-915F-1F1412319F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7944D7-93AB-4EF8-B800-FB8616882C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7944D7-93AB-4EF8-B800-FB8616882C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7944D7-93AB-4EF8-B800-FB8616882C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7944D7-93AB-4EF8-B800-FB8616882C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
