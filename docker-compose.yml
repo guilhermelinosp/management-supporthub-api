@@ -1,0 +1,7 @@
+﻿services:
+  company.supporthub.api:
+    container_name: company.supporthub.api
+    image: company.supporthub.api:dev
+    build:
+      context: .
+      dockerfile: Source/Company.SupportHub.API/Dockerfile

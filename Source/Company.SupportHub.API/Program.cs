@@ -1,5 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
-
+var configuration = builder.Configuration;
 var services = builder.Services;
 
 services.AddEndpointsApiExplorer();
@@ -12,12 +12,11 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
-
-if (app.Environment.IsProduction())
+else
 {
-	app.UseExceptionHandler("/Error");
 	app.UseHsts();
-	app.UseHttpsRedirection();
 }
 
+
+app.UseExceptionHandler("/error");
 app.Run();
