@@ -8,9 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Services\Cryptography\" />
-        <Folder Include="Services\Tokenization\" />
-        <Folder Include="UseCases\Interfaces\"/>
+        <Folder Include="Services\Cryptography\"/>
+        <Folder Include="Services\Tokenization\"/>
+        <Folder Include="UseCases\Employee\"/>
         <Folder Include="UseCases\Validators\"/>
     </ItemGroup>
 

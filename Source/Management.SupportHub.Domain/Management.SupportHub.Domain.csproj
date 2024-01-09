@@ -8,9 +8,7 @@
 
     <ItemGroup>
         <Folder Include="DTOs\Requests\"/>
-        <Folder Include="Entities\"/>
         <Folder Include="Enums\"/>
-        <Folder Include="Repositories\"/>
         <Folder Include="Services\"/>
         <Folder Include="VOs\"/>
     </ItemGroup>
