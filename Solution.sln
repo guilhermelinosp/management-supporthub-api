@@ -7,24 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6CFDBA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A71A17F-0240-42F8-A5A2-EA3A51A101EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.SupportHub.Application", "Source\Company.SupportHub.Application\Company.SupportHub.Application.csproj", "{9BA51C4F-66C6-44DA-9D92-15C621BB087A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.Application", "Source\Management.SupportHub.Application\Management.SupportHub.Application.csproj", "{9BA51C4F-66C6-44DA-9D92-15C621BB087A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AC446990-BC8C-44B7-B6B3-1C381233284D} = {AC446990-BC8C-44B7-B6B3-1C381233284D}
 		{8B414149-8EA7-4B8B-915F-1F1412319F22} = {8B414149-8EA7-4B8B-915F-1F1412319F22}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.SupportHub.Domain", "Source\Company.SupportHub.Domain\Company.SupportHub.Domain.csproj", "{AC446990-BC8C-44B7-B6B3-1C381233284D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.Domain", "Source\Management.SupportHub.Domain\Management.SupportHub.Domain.csproj", "{AC446990-BC8C-44B7-B6B3-1C381233284D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.SupportHub.Infrastructure", "Source\Company.SupportHub.Infrastructure\Company.SupportHub.Infrastructure.csproj", "{8B414149-8EA7-4B8B-915F-1F1412319F22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.Infrastructure", "Source\Management.SupportHub.Infrastructure\Management.SupportHub.Infrastructure.csproj", "{8B414149-8EA7-4B8B-915F-1F1412319F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.SupportHub.API", "Source\Company.SupportHub.API\Company.SupportHub.API.csproj", "{6E7944D7-93AB-4EF8-B800-FB8616882C2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.API", "Source\Management.SupportHub.API\Management.SupportHub.API.csproj", "{6E7944D7-93AB-4EF8-B800-FB8616882C2E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9BA51C4F-66C6-44DA-9D92-15C621BB087A} = {9BA51C4F-66C6-44DA-9D92-15C621BB087A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.SupportHub.UnitTesting", "Tests\Company.SupportHub.UnitTesting\Company.SupportHub.UnitTesting.csproj", "{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.UnitTesting", "Tests\Management.SupportHub.UnitTesting\Management.SupportHub.UnitTesting.csproj", "{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.SupportHub.IntegrationTesting", "Tests\Company.SupportHub.IntegrationTesting\Company.SupportHub.IntegrationTesting.csproj", "{D13ED587-0A35-49D1-8324-709BE3DE381B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.IntegrationTesting", "Tests\Management.SupportHub.IntegrationTesting\Management.SupportHub.IntegrationTesting.csproj", "{D13ED587-0A35-49D1-8324-709BE3DE381B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,10 @@
 ﻿services:
-  company.supporthub.api:
-    container_name: company.supporthub.api
-    image: company.supporthub.api:dev
+  company.management.supporthub.api:
+    container_name: company.management.supporthub.api
+    image: company.management.supporthub.api:dev
     build:
       context: .
-      dockerfile: Source/Company.SupportHub.API/Dockerfile
+      dockerfile: Source/Company.Management.SupportHub.API/Dockerfile
+    ports:
+        - "8080:8080"
+        - "8081:8081"

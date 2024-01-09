@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="DTOs\Requests\"/>
+        <Folder Include="Entities\"/>
+        <Folder Include="Enums\"/>
+        <Folder Include="Repositories\"/>
+        <Folder Include="Services\"/>
+        <Folder Include="VOs\"/>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
+            <HintPath>..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+            <HintPath>..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.0\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+
+</Project>
