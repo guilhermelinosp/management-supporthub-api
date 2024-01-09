@@ -23,5 +23,3 @@ jobs:
 
       - name: 'Run Dependency Review'
         uses: actions/dependency-review-action@v3
-
-
