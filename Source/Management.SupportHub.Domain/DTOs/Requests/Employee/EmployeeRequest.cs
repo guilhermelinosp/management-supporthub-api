@@ -1,6 +1,6 @@
 namespace Management.SupportHub.Domain.DTOs.Requests.Employee;
 
-public class RequestEmployee
+public class EmployeeRequest
 {
 	public required string Name { get; set; }
 	public required string Email { get; set; }

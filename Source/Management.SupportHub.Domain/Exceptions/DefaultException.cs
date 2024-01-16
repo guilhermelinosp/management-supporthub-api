@@ -1,7 +1,16 @@
 namespace Management.SupportHub.Domain.Exceptions;
 
 [Serializable]
-public class DefaultException(List<string>? errorMessages) : SystemException(string.Empty)
+public class DefaultException : SystemException
 {
-	public List<string>? ErrorMessages { get; set; } = errorMessages;
+	public DefaultException()
+	{
+	}
+
+	public DefaultException(List<string>? messages)
+	{
+		Messages = messages;
+	}
+
+	public List<string>? Messages { get; set; }
 }

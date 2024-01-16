@@ -13,28 +13,77 @@ public class ExceptionFilter : IExceptionFilter
 	{
 		Console.WriteLine(context.Exception);
 
-		if (context.Exception is DefaultException exception)
-			context.Result = new ObjectResult(new
+		switch (context.Exception)
+		{
+			case DefaultException exception:
+				HandleDefaultException(context, exception);
+				break;
+			case ForbiddenAccessException _:
+				HandleForbiddenAccessException(context);
+				break;
+			case TokenAccessException _:
+				HandleTokenAccessException(context);
+				break;
+			default:
+				HandleUnknownException(context);
+				break;
+		}
+	}
+
+
+	private static void HandleDefaultException(ExceptionContext context, DefaultException exception)
+	{
+		context.Result = new ObjectResult(new
+		{
+			data = new ResponseException
 			{
-				data = new ResponseException
-				{
-					Mensagens = exception.ErrorMessages!.ToList()
-				}
-			})
+				Mensagens = exception.Messages!.ToList()
+			}
+		})
+		{
+			StatusCode = (int)HttpStatusCode.BadRequest
+		};
+	}
+
+	private static void HandleForbiddenAccessException(ExceptionContext context)
+	{
+		context.Result = new ObjectResult(new
+		{
+			data = new ResponseException
 			{
-				StatusCode = (int)HttpStatusCode.BadRequest
-			};
-		else
-			context.Result =
-				new ObjectResult(new
-				{
-					data = new ResponseException
-					{
-						Mensagens = [MessageException.ERRO_DESCONHECIDO]
-					}
-				})
-				{
-					StatusCode = (int)HttpStatusCode.InternalServerError
-				};
+				Mensagens = [MessageExceptions.FORBIDDEN_ACCESS]
+			}
+		})
+		{
+			StatusCode = (int)HttpStatusCode.Forbidden
+		};
+	}
+
+	private static void HandleTokenAccessException(ExceptionContext context)
+	{
+		context.Result = new ObjectResult(new
+		{
+			data = new ResponseException
+			{
+				Mensagens = [MessageExceptions.TOKEN_EXPIDED]
+			}
+		})
+		{
+			StatusCode = (int)HttpStatusCode.Unauthorized
+		};
+	}
+
+	private static void HandleUnknownException(ExceptionContext context)
+	{
+		context.Result = new ObjectResult(new
+		{
+			data = new ResponseException
+			{
+				Mensagens = [MessageExceptions.UNKNOWN_ERROR]
+			}
+		})
+		{
+			StatusCode = (int)HttpStatusCode.InternalServerError
+		};
 	}
 }
