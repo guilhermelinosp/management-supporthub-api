@@ -1,10 +1,10 @@
-name: dotnet-dependency
+name: .NET Dependency CI
 on:
   pull_request:
     branches: ["main"]
 
 jobs:
-  dependency-review:
+  dependency:
     runs-on: ${{ matrix.os }}
 
     strategy:

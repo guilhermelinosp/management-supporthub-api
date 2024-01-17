@@ -7,24 +7,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6CFDBA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A71A17F-0240-42F8-A5A2-EA3A51A101EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.Application", "Source\Management.SupportHub.Application\Management.SupportHub.Application.csproj", "{9BA51C4F-66C6-44DA-9D92-15C621BB087A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.Management.SupportHub.Application", "Source\Companies\Comp.Management.SupportHub.Application\Comp.Management.SupportHub.Application.csproj", "{9BA51C4F-66C6-44DA-9D92-15C621BB087A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AC446990-BC8C-44B7-B6B3-1C381233284D} = {AC446990-BC8C-44B7-B6B3-1C381233284D}
 		{8B414149-8EA7-4B8B-915F-1F1412319F22} = {8B414149-8EA7-4B8B-915F-1F1412319F22}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.Domain", "Source\Management.SupportHub.Domain\Management.SupportHub.Domain.csproj", "{AC446990-BC8C-44B7-B6B3-1C381233284D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.Management.SupportHub.Domain", "Source\Companies\Comp.Management.SupportHub.Domain\Comp.Management.SupportHub.Domain.csproj", "{AC446990-BC8C-44B7-B6B3-1C381233284D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.Infrastructure", "Source\Management.SupportHub.Infrastructure\Management.SupportHub.Infrastructure.csproj", "{8B414149-8EA7-4B8B-915F-1F1412319F22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.Management.SupportHub.Infrastructure", "Source\Companies\Comp.Management.SupportHub.Infrastructure\Comp.Management.SupportHub.Infrastructure.csproj", "{8B414149-8EA7-4B8B-915F-1F1412319F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.API", "Source\Management.SupportHub.API\Management.SupportHub.API.csproj", "{6E7944D7-93AB-4EF8-B800-FB8616882C2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.Management.SupportHub.API", "Source\Companies\Comp.Management.SupportHub.API\Comp.Management.SupportHub.API.csproj", "{6E7944D7-93AB-4EF8-B800-FB8616882C2E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9BA51C4F-66C6-44DA-9D92-15C621BB087A} = {9BA51C4F-66C6-44DA-9D92-15C621BB087A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.UnitTesting", "Tests\Management.SupportHub.UnitTesting\Management.SupportHub.UnitTesting.csproj", "{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.Management.SupportHub.UnitTesting", "Tests\Companies\Comp.Management.SupportHub.UnitTesting\Comp.Management.SupportHub.UnitTesting.csproj", "{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.SupportHub.IntegrationTesting", "Tests\Management.SupportHub.IntegrationTesting\Management.SupportHub.IntegrationTesting.csproj", "{D13ED587-0A35-49D1-8324-709BE3DE381B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.Management.SupportHub.IntegrationTesting", "Tests\Companies\Comp.Management.SupportHub.IntegrationTesting\Comp.Management.SupportHub.IntegrationTesting.csproj", "{D13ED587-0A35-49D1-8324-709BE3DE381B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Companies", "Companies", "{005EFE0F-97DE-4555-B07D-D194BB896CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comapanies", "Comapanies", "{24374E2C-54A9-4521-82F0-F06D4DEE53CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customers", "Customers", "{F999D2E0-77BD-4C3D-A052-6799EE158197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customers", "Customers", "{23343564-EF31-4671-BD03-98F84456CFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cust.Management.SupportHub.Domain", "Source\Customers\Cust.Management.SupportHub.Domain\Cust.Management.SupportHub.Domain.csproj", "{C788339D-202D-445D-B41A-A69683D9E808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cust.Management.SupportHub.API", "Source\Customers\Cust.Management.SupportHub.API\Cust.Management.SupportHub.API.csproj", "{814E2EA8-F14C-4A8F-9DFB-F96A6511F572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cust.Management.SupportHub.Application", "Source\Customers\Cust.Management.SupportHub.Application\Cust.Management.SupportHub.Application.csproj", "{72505B70-0CCF-4643-A440-C266D2C3B4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cust.Management.SupportHub.Infrastructure", "Source\Customers\Cust.Management.SupportHub.Infrastructure\Cust.Management.SupportHub.Infrastructure.csproj", "{3C10B94E-1A8D-416D-902A-1D0989628406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cust.Management.SupportHub.IntegrationTesting", "Tests\Customers\Cust.Management.SupportHub.IntegrationTesting\Cust.Management.SupportHub.IntegrationTesting.csproj", "{186D1514-D70F-4EF2-881B-449734F9FF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cust.Management.SupportHub.UnitTesting", "Tests\Customers\Cust.Management.SupportHub.UnitTesting\Cust.Management.SupportHub.UnitTesting.csproj", "{DE6D7630-0D0B-4919-8B4B-94A0CA61BE0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +55,22 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9BA51C4F-66C6-44DA-9D92-15C621BB087A} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
-		{AC446990-BC8C-44B7-B6B3-1C381233284D} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
-		{8B414149-8EA7-4B8B-915F-1F1412319F22} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
-		{6E7944D7-93AB-4EF8-B800-FB8616882C2E} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
-		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF} = {7A71A17F-0240-42F8-A5A2-EA3A51A101EF}
-		{D13ED587-0A35-49D1-8324-709BE3DE381B} = {7A71A17F-0240-42F8-A5A2-EA3A51A101EF}
+		{005EFE0F-97DE-4555-B07D-D194BB896CEF} = {7A71A17F-0240-42F8-A5A2-EA3A51A101EF}
+		{24374E2C-54A9-4521-82F0-F06D4DEE53CD} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
+		{6E7944D7-93AB-4EF8-B800-FB8616882C2E} = {24374E2C-54A9-4521-82F0-F06D4DEE53CD}
+		{9BA51C4F-66C6-44DA-9D92-15C621BB087A} = {24374E2C-54A9-4521-82F0-F06D4DEE53CD}
+		{8B414149-8EA7-4B8B-915F-1F1412319F22} = {24374E2C-54A9-4521-82F0-F06D4DEE53CD}
+		{AC446990-BC8C-44B7-B6B3-1C381233284D} = {24374E2C-54A9-4521-82F0-F06D4DEE53CD}
+		{FAFD1EC5-9A3A-43C9-9782-8DD08A16B7DF} = {005EFE0F-97DE-4555-B07D-D194BB896CEF}
+		{D13ED587-0A35-49D1-8324-709BE3DE381B} = {005EFE0F-97DE-4555-B07D-D194BB896CEF}
+		{F999D2E0-77BD-4C3D-A052-6799EE158197} = {6CFDBAA3-C469-483D-8ABE-16A7B20C5E4B}
+		{23343564-EF31-4671-BD03-98F84456CFE5} = {7A71A17F-0240-42F8-A5A2-EA3A51A101EF}
+		{C788339D-202D-445D-B41A-A69683D9E808} = {F999D2E0-77BD-4C3D-A052-6799EE158197}
+		{814E2EA8-F14C-4A8F-9DFB-F96A6511F572} = {F999D2E0-77BD-4C3D-A052-6799EE158197}
+		{72505B70-0CCF-4643-A440-C266D2C3B4C4} = {F999D2E0-77BD-4C3D-A052-6799EE158197}
+		{3C10B94E-1A8D-416D-902A-1D0989628406} = {F999D2E0-77BD-4C3D-A052-6799EE158197}
+		{186D1514-D70F-4EF2-881B-449734F9FF5F} = {23343564-EF31-4671-BD03-98F84456CFE5}
+		{DE6D7630-0D0B-4919-8B4B-94A0CA61BE0A} = {23343564-EF31-4671-BD03-98F84456CFE5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BA51C4F-66C6-44DA-9D92-15C621BB087A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -67,5 +97,29 @@ Global
 		{D13ED587-0A35-49D1-8324-709BE3DE381B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D13ED587-0A35-49D1-8324-709BE3DE381B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D13ED587-0A35-49D1-8324-709BE3DE381B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C788339D-202D-445D-B41A-A69683D9E808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C788339D-202D-445D-B41A-A69683D9E808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C788339D-202D-445D-B41A-A69683D9E808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C788339D-202D-445D-B41A-A69683D9E808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814E2EA8-F14C-4A8F-9DFB-F96A6511F572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814E2EA8-F14C-4A8F-9DFB-F96A6511F572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814E2EA8-F14C-4A8F-9DFB-F96A6511F572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814E2EA8-F14C-4A8F-9DFB-F96A6511F572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72505B70-0CCF-4643-A440-C266D2C3B4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72505B70-0CCF-4643-A440-C266D2C3B4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72505B70-0CCF-4643-A440-C266D2C3B4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72505B70-0CCF-4643-A440-C266D2C3B4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C10B94E-1A8D-416D-902A-1D0989628406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C10B94E-1A8D-416D-902A-1D0989628406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C10B94E-1A8D-416D-902A-1D0989628406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C10B94E-1A8D-416D-902A-1D0989628406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186D1514-D70F-4EF2-881B-449734F9FF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186D1514-D70F-4EF2-881B-449734F9FF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186D1514-D70F-4EF2-881B-449734F9FF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186D1514-D70F-4EF2-881B-449734F9FF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6D7630-0D0B-4919-8B4B-94A0CA61BE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6D7630-0D0B-4919-8B4B-94A0CA61BE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6D7630-0D0B-4919-8B4B-94A0CA61BE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6D7630-0D0B-4919-8B4B-94A0CA61BE0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

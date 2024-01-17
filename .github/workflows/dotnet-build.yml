@@ -1,4 +1,4 @@
-name: dotnet-build
+name: .NET Build CI
 on:
   push:
     branches: ["main"]
@@ -6,7 +6,7 @@ on:
     branches: ["main"]
 
 jobs:
-  build-review:
+  build:
     runs-on: ${{ matrix.os }}
 
     strategy:
