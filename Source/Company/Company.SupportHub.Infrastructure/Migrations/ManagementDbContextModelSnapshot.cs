@@ -4,7 +4,6 @@ using Management.SupportHub.Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -12,11 +11,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Management.SupportHub.Infrastructure.Migrations
 {
     [DbContext(typeof(ManagementDbContext))]
-    [Migration("20240109234937_CreateTables")]
-    partial class CreateTables
+    partial class ManagementDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,7 +22,7 @@ namespace Management.SupportHub.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Comp.Management.SupportHub.Domain.Entities.Account", b =>
+            modelBuilder.Entity("Company.SupportHub.Domain.Entities.Account", b =>
                 {
                     b.Property<Guid>("AccountId")
                         .ValueGeneratedOnAdd()
@@ -70,7 +67,7 @@ namespace Management.SupportHub.Infrastructure.Migrations
                     b.ToTable("TB_Account");
                 });
 
-            modelBuilder.Entity("Comp.Management.SupportHub.Domain.Entities.Company", b =>
+            modelBuilder.Entity("Company.SupportHub.Domain.Entities.Company", b =>
                 {
                     b.Property<Guid>("CompanyId")
                         .ValueGeneratedOnAdd()
@@ -107,7 +104,7 @@ namespace Management.SupportHub.Infrastructure.Migrations
                     b.ToTable("TB_Company");
                 });
 
-            modelBuilder.Entity("Comp.Management.SupportHub.Domain.Entities.Customer", b =>
+            modelBuilder.Entity("Company.SupportHub.Domain.Entities.Customer", b =>
                 {
                     b.Property<Guid>("EmployeeId")
                         .ValueGeneratedOnAdd()
@@ -147,7 +144,7 @@ namespace Management.SupportHub.Infrastructure.Migrations
                     b.ToTable("TB_Customer");
                 });
 
-            modelBuilder.Entity("Comp.Management.SupportHub.Domain.Entities.Employee", b =>
+            modelBuilder.Entity("Company.SupportHub.Domain.Entities.Employee", b =>
                 {
                     b.Property<Guid>("EmployeeId")
                         .ValueGeneratedOnAdd()

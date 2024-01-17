@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Comp.Management.SupportHub.Infrastructure\Comp.Management.SupportHub.Infrastructure.csproj" />
+        <ProjectReference Include="..\Company.SupportHub.Infrastructure\Company.SupportHub.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

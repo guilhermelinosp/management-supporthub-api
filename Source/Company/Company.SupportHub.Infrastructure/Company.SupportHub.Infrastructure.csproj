@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Comp.Management.SupportHub.Domain\Comp.Management.SupportHub.Domain.csproj" />
+        <ProjectReference Include="..\Company.SupportHub.Domain\Company.SupportHub.Domain.csproj" />
     </ItemGroup>
 
 </Project>
