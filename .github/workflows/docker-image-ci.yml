@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        service: [Command, Platform]
+        service: [Company, Customer]
 
     steps:
       - name: Check out the repo
@@ -44,8 +44,8 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          file: ./Source/${{ matrix.service }}/${{ matrix.service }}.Service.API/Dockerfile
+          file: ./Source/${{ matrix.service }}/${{ matrix.service }}.SupportHub.API/Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.service.api:latest
-            docker.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.service.api:latest
+            ghcr.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.supporthub.api:latest
+            docker.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.supporthub.api:latest
