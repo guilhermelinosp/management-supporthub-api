@@ -44,8 +44,8 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          file: ./Source/${{ matrix.service }}/${{ matrix.service }}.SupportHub.API/Dockerfile
+          file: ./Source/${{ matrix.service }}/${{ matrix.service }}.Management.SupportHub.API/Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.supporthub.api:latest
-            docker.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.supporthub.api:latest
+            ghcr.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.management.supporthub.api:latest
+            docker.io/${{ github.actor }}/${{ steps.set_service_lowercase.outputs.service_lowercase }}.management.supporthub.api:latest

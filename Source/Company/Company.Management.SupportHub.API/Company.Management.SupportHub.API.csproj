@@ -27,8 +27,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Company.Management.SupportHub.Application\Company.Management.SupportHub.Application.csproj" />
-        <ProjectReference Include="..\Company.Management.SupportHub.Domain\Company.Management.SupportHub.Domain.csproj" />
+        <ProjectReference Include="..\Company.Management.SupportHub.Application\Company.Management.SupportHub.Application.csproj"/>
+        <ProjectReference Include="..\Company.Management.SupportHub.Domain\Company.Management.SupportHub.Domain.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
