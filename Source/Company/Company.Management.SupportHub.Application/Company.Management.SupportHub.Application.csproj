@@ -4,13 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>Company.SupportHub.Application</RootNamespace>
     </PropertyGroup>
-
-    <ItemGroup>
-        <Folder Include="Services\Cryptography\"/>
-        <Folder Include="Services\Tokenization\"/>
-    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="FluentValidation" Version="11.9.0"/>
@@ -22,7 +16,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Company.Management.SupportHub.Infrastructure\Company.Management.SupportHub.Infrastructure.csproj"/>
-        <ProjectReference Include="..\Company.SupportHub.Infrastructure\Company.SupportHub.Infrastructure.csproj"/>
+        <ProjectReference Include="..\Company.Management.SupportHub.Infrastructure\Company.Management.SupportHub.Infrastructure.csproj"/>
     </ItemGroup>
 
 </Project>

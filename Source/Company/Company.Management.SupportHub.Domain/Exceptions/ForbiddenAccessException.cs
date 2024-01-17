@@ -1,4 +1,4 @@
-namespace Company.SupportHub.Domain.Exceptions;
+namespace Company.Management.SupportHub.Domain.Exceptions;
 
 [Serializable]
 public class ForbiddenAccessException : SystemException

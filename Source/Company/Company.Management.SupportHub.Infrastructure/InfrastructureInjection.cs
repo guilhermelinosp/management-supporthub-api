@@ -1,6 +1,6 @@
+using Company.Management.SupportHub.Domain.Repositories;
 using Company.Management.SupportHub.Infrastructure.Contexts;
 using Company.Management.SupportHub.Infrastructure.Repositories;
-using Company.SupportHub.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

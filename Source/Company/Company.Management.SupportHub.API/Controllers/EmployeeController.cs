@@ -1,13 +1,13 @@
 using System.Net;
-using Company.SupportHub.API.Controllers.Abstract;
-using Company.SupportHub.Application.Services.Tokenization;
-using Company.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
-using Company.SupportHub.Domain.DTOs.Messages;
-using Company.SupportHub.Domain.DTOs.Requests.Employee;
-using Company.SupportHub.Domain.DTOs.Responses;
+using Company.Management.SupportHub.API.Controllers.Abstract;
+using Company.Management.SupportHub.Application.Services.Tokenization;
+using Company.Management.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
+using Company.Management.SupportHub.Domain.DTOs.Messages;
+using Company.Management.SupportHub.Domain.DTOs.Requests.Employee;
+using Company.Management.SupportHub.Domain.DTOs.Responses;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Company.SupportHub.API.Controllers;
+namespace Company.Management.SupportHub.API.Controllers;
 
 [ApiController]
 [Route("api/v1/[controller]")]

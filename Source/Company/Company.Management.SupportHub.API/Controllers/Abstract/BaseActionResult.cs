@@ -1,7 +1,7 @@
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Company.SupportHub.API.Controllers.Abstract;
+namespace Company.Management.SupportHub.API.Controllers.Abstract;
 
 public class BaseActionResult<T>(HttpStatusCode statusCode, T? data) : IActionResult
 {

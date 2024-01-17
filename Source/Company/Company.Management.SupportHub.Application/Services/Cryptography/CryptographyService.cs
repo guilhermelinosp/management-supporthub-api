@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Company.SupportHub.Application.Services.Cryptography;
+namespace Company.Management.SupportHub.Application.Services.Cryptography;
 
 public class CryptographyService : ICryptographyService
 {

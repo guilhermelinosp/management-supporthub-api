@@ -1,4 +1,4 @@
-﻿namespace Company.SupportHub.Application.Services.Cryptography;
+﻿namespace Company.Management.SupportHub.Application.Services.Cryptography;
 
 public interface ICryptographyService
 {

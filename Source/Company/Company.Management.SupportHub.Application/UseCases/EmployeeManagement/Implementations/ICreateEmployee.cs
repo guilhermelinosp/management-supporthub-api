@@ -1,7 +1,7 @@
-using Company.SupportHub.Domain.DTOs.Requests.Employee;
-using Company.SupportHub.Domain.DTOs.Responses;
+using Company.Management.SupportHub.Domain.DTOs.Requests.Employee;
+using Company.Management.SupportHub.Domain.DTOs.Responses;
 
-namespace Company.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
+namespace Company.Management.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
 
 public interface ICreateEmployee
 {

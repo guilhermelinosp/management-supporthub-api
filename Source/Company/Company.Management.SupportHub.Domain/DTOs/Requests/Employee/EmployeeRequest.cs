@@ -1,4 +1,4 @@
-namespace Company.SupportHub.Domain.DTOs.Requests.Employee;
+namespace Company.Management.SupportHub.Domain.DTOs.Requests.Employee;
 
 public class EmployeeRequest
 {

@@ -1,11 +1,11 @@
 using System.Net;
-using Company.SupportHub.Domain.DTOs.Messages;
-using Company.SupportHub.Domain.DTOs.Responses;
-using Company.SupportHub.Domain.Exceptions;
+using Company.Management.SupportHub.Domain.DTOs.Messages;
+using Company.Management.SupportHub.Domain.DTOs.Responses;
+using Company.Management.SupportHub.Domain.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Company.SupportHub.API.Filters;
+namespace Company.Management.SupportHub.API.Filters;
 
 public class ExceptionFilter : IExceptionFilter
 {

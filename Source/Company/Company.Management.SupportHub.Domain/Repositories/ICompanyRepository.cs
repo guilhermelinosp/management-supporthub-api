@@ -1,4 +1,4 @@
-namespace Company.SupportHub.Domain.Repositories;
+namespace Company.Management.SupportHub.Domain.Repositories;
 
 public interface ICompanyRepository
 {

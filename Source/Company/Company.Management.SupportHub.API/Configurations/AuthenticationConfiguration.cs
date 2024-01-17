@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Company.SupportHub.API.Configurations;
+namespace Company.Management.SupportHub.API.Configurations;
 
 public static class AuthenticationConfiguration
 {

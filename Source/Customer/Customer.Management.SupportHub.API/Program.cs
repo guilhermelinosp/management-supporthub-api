@@ -1,4 +1,4 @@
-using Customer.SupportHub.API;
+using Customer.Management.SupportHub.API;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,11 +39,3 @@ app.MapGet("/weatherforecast", () =>
 	.WithOpenApi();
 
 app.Run();
-
-namespace Customer.SupportHub.API
-{
-	internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-	{
-		public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-	}
-}

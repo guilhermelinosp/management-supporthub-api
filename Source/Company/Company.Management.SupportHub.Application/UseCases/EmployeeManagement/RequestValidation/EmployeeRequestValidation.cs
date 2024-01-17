@@ -1,10 +1,10 @@
 using System.Text.RegularExpressions;
-using Company.SupportHub.Domain.DTOs.Messages;
-using Company.SupportHub.Domain.DTOs.Requests.Employee;
+using Company.Management.SupportHub.Domain.DTOs.Messages;
+using Company.Management.SupportHub.Domain.DTOs.Requests.Employee;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Company.SupportHub.Application.UseCases.EmployeeManagement.RequestValidation;
+namespace Company.Management.SupportHub.Application.UseCases.EmployeeManagement.RequestValidation;
 
 public partial class EmployeeRequestValidation : AbstractValidator<EmployeeRequest>
 {

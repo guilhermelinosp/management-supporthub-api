@@ -1,4 +1,4 @@
-﻿namespace Company.SupportHub.API.Configurations;
+﻿namespace Company.Management.SupportHub.API.Configurations;
 
 public static class RoutingConfiguration
 {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Company.SupportHub.Domain.Entities;
+namespace Company.Management.SupportHub.Domain.Entities;
 
 [Table("TB_Employee")]
 public class Employee

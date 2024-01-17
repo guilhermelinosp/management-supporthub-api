@@ -1,9 +1,9 @@
-using Company.SupportHub.Domain.DTOs.Messages;
-using Company.SupportHub.Domain.DTOs.Requests.Employee;
-using Company.SupportHub.Domain.Repositories;
+using Company.Management.SupportHub.Domain.DTOs.Messages;
+using Company.Management.SupportHub.Domain.DTOs.Requests.Employee;
+using Company.Management.SupportHub.Domain.Repositories;
 using FluentValidation.Results;
 
-namespace Company.SupportHub.Application.UseCases.EmployeeManagement.InternalValidation;
+namespace Company.Management.SupportHub.Application.UseCases.EmployeeManagement.InternalValidation;
 
 public class EmployeeInternalValidation()
 {

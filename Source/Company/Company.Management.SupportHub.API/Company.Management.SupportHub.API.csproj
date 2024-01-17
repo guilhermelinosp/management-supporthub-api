@@ -7,7 +7,6 @@
         <InvariantGlobalization>false</InvariantGlobalization>
         <UserSecretsId>40a7a455-da12-48d7-b616-3c98c2b8a901</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <RootNamespace>Company.SupportHub.API</RootNamespace>
     </PropertyGroup>
 
 
@@ -28,7 +27,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Company.Management.SupportHub.Application\Company.Management.SupportHub.Application.csproj"/>
-        <ProjectReference Include="..\Company.Management.SupportHub.Domain\Company.Management.SupportHub.Domain.csproj"/>
     </ItemGroup>
 
     <ItemGroup>

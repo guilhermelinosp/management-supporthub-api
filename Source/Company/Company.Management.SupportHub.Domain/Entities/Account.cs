@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Company.SupportHub.Domain.Entities;
+namespace Company.Management.SupportHub.Domain.Entities;
 
 [Table("TB_Account")]
 public class Account

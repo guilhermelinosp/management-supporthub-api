@@ -1,14 +1,14 @@
-using Company.SupportHub.Application.Services.Cryptography;
-using Company.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
-using Company.SupportHub.Application.UseCases.EmployeeManagement.InternalValidation;
-using Company.SupportHub.Application.UseCases.EmployeeManagement.RequestValidation;
-using Company.SupportHub.Domain.DTOs.Requests.Employee;
-using Company.SupportHub.Domain.DTOs.Responses;
-using Company.SupportHub.Domain.Entities;
-using Company.SupportHub.Domain.Exceptions;
-using Company.SupportHub.Domain.Repositories;
+using Company.Management.SupportHub.Application.Services.Cryptography;
+using Company.Management.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
+using Company.Management.SupportHub.Application.UseCases.EmployeeManagement.InternalValidation;
+using Company.Management.SupportHub.Application.UseCases.EmployeeManagement.RequestValidation;
+using Company.Management.SupportHub.Domain.DTOs.Requests.Employee;
+using Company.Management.SupportHub.Domain.DTOs.Responses;
+using Company.Management.SupportHub.Domain.Entities;
+using Company.Management.SupportHub.Domain.Exceptions;
+using Company.Management.SupportHub.Domain.Repositories;
 
-namespace Company.SupportHub.Application.UseCases.EmployeeManagement;
+namespace Company.Management.SupportHub.Application.UseCases.EmployeeManagement;
 
 public class CreateEmployee(
 	ICryptographyService cryptography,

@@ -1,4 +1,4 @@
-namespace Company.SupportHub.Domain.DTOs.Messages;
+namespace Company.Management.SupportHub.Domain.DTOs.Messages;
 
 public static class MessagesDefaults
 {

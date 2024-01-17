@@ -1,6 +1,6 @@
+using Company.Management.SupportHub.Domain.Entities;
+using Company.Management.SupportHub.Domain.Repositories;
 using Company.Management.SupportHub.Infrastructure.Contexts;
-using Company.SupportHub.Domain.Entities;
-using Company.SupportHub.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.Management.SupportHub.Infrastructure.Repositories;

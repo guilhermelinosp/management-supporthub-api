@@ -1,7 +1,7 @@
+using Company.Management.SupportHub.API.Configurations;
+using Company.Management.SupportHub.API.Filters;
+using Company.Management.SupportHub.Application;
 using Company.Management.SupportHub.Infrastructure.Contexts.Persistences;
-using Company.SupportHub.API.Configurations;
-using Company.SupportHub.API.Filters;
-using Company.SupportHub.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;

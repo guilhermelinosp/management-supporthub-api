@@ -1,4 +1,4 @@
-namespace Company.SupportHub.Domain.DTOs.Responses;
+namespace Company.Management.SupportHub.Domain.DTOs.Responses;
 
 public class ResponseException
 {

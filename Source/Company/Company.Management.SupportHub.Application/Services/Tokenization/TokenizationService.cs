@@ -3,12 +3,12 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using Company.SupportHub.Domain.DTOs.Messages;
-using Company.SupportHub.Domain.Exceptions;
+using Company.Management.SupportHub.Domain.DTOs.Messages;
+using Company.Management.SupportHub.Domain.Exceptions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Company.SupportHub.Application.Services.Tokenization;
+namespace Company.Management.SupportHub.Application.Services.Tokenization;
 
 public class TokenizationService(IConfiguration configuration) : ITokenizationService
 {

@@ -1,12 +1,12 @@
+using Company.Management.SupportHub.Application.Services.Cryptography;
+using Company.Management.SupportHub.Application.Services.Tokenization;
+using Company.Management.SupportHub.Application.UseCases.EmployeeManagement;
+using Company.Management.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
 using Company.Management.SupportHub.Infrastructure;
-using Company.SupportHub.Application.Services.Cryptography;
-using Company.SupportHub.Application.Services.Tokenization;
-using Company.SupportHub.Application.UseCases.EmployeeManagement;
-using Company.SupportHub.Application.UseCases.EmployeeManagement.Implementations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Company.SupportHub.Application;
+namespace Company.Management.SupportHub.Application;
 
 public static class ApplicationInjection
 {

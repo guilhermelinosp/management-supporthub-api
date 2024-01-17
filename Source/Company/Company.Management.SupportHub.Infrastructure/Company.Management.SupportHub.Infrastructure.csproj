@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Company.Management.SupportHub.Domain\Company.Management.SupportHub.Domain.csproj" />
+        <ProjectReference Include="..\Company.Management.SupportHub.Domain\Company.Management.SupportHub.Domain.csproj"/>
     </ItemGroup>
 
 </Project>

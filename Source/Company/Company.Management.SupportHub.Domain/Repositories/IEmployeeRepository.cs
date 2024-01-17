@@ -1,6 +1,6 @@
-using Company.SupportHub.Domain.Entities;
+using Company.Management.SupportHub.Domain.Entities;
 
-namespace Company.SupportHub.Domain.Repositories;
+namespace Company.Management.SupportHub.Domain.Repositories;
 
 public interface IEmployeeRepository
 {

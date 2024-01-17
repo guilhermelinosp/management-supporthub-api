@@ -1,4 +1,4 @@
-﻿namespace Company.SupportHub.Application.Services.Tokenization;
+﻿namespace Company.Management.SupportHub.Application.Services.Tokenization;
 
 public interface ITokenizationService
 {
